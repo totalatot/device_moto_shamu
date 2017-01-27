@@ -151,6 +151,9 @@ TARGET_FS_CONFIG_GEN += device/moto/shamu/config.fs
 # Enable workaround for slow rom flash
 BOARD_SUPPRESS_SECURE_ERASE := true
 
+# Include additional properties in separate system.prop
+TARGET_SYSTEM_PROP := device/moto/shamu/omni_system.prop
+
 # TWRP
 TW_THEME := portrait_hdpi
 TW_INCLUDE_L_CRYPTO := true
