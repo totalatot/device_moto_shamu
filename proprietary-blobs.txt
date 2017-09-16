@@ -47,6 +47,7 @@
 /system/bin/radish
 /system/bin/ramdump
 /system/bin/sensors.qcom
+/system/bin/stm401
 /system/bin/tcmd_mini
 /system/bin/test_diag
 /system/bin/thermal-engine

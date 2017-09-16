@@ -31,6 +31,7 @@ system/bin/qseecomd:qcom
 system/bin/radish:qcom
 system/bin/ramdump:moto
 system/bin/sensors.qcom:qcom
+system/bin/stm401:qcom
 system/bin/tcmd_mini:moto
 system/bin/test_diag:qcom
 system/bin/thermal-engine:qcom
