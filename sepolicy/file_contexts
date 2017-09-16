@@ -190,3 +190,9 @@
 
 /dev/socket/cnd  u:object_r:cnd_socket:s0
 /system/bin/cnd  u:object_r:cnd_exec:s0
+
+# STM401
+/dev/stm401                             u:object_r:sensors_device:s0
+/dev/stm401_as                          u:object_r:sensors_device:s0
+/dev/stm401_ms                          u:object_r:sensors_device:s0
+/system/bin/stm401                      u:object_r:stm401_exec:s0
