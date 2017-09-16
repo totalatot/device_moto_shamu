@@ -201,3 +201,9 @@
 
 # Sysfs for vibrator
 /sys/devices/virtual/timed_output/vibrator/vtg_level                     u:object_r:sysfs_vibrator:s0
+
+# STM401
+/dev/stm401                             u:object_r:sensors_device:s0
+/dev/stm401_as                          u:object_r:sensors_device:s0
+/dev/stm401_ms                          u:object_r:sensors_device:s0
+/system/bin/stm401                      u:object_r:stm401_exec:s0
