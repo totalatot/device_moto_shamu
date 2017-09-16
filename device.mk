@@ -454,6 +454,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
    fs_config_files
 
+# CMActions
+PRODUCT_PACKAGES += \
+    libjni_CMActions \
+    CMActions
+
 PRODUCT_PROPERTY_OVERRIDES += \
    ro.frp.pst=/dev/block/platform/msm_sdcc.1/by-name/frp
 
