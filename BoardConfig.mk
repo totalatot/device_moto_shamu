@@ -24,7 +24,8 @@ ENABLE_CPUSETS := true
 
 TARGET_NO_BOOTLOADER := true
 
-TARGET_KERNEL_CONFIG := six_defconfig
+# Inline kernel building
+TARGET_KERNEL_CONFIG := shamu_defconfig
 TARGET_KERNEL_SOURCE := kernel/moto/shamu
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
