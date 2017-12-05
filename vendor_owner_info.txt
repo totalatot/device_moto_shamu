@@ -31,10 +31,7 @@ system/bin/qseecomd:qcom
 system/bin/radish:qcom
 system/bin/ramdump:moto
 system/bin/sensors.qcom:qcom
-<<<<<<< HEAD
-=======
 system/bin/stm401:qcom
->>>>>>> f322ceeb... Add stm401 to vendor and blobs
 system/bin/tcmd_mini:moto
 system/bin/test_diag:qcom
 system/bin/thermal-engine:qcom
