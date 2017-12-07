@@ -1,5 +1,5 @@
 # Include omni board-specific configurations
-include device/moto/shamu/BoardConfigOmni.mk
+# include device/moto/shamu/BoardConfigOmni.mk
 
 # Inherit base AOSP device configuration
 $(call inherit-product, device/moto/shamu/aosp_shamu.mk)
