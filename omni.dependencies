@@ -1,8 +1,0 @@
-[
-  {
-    "remote": "omnirom",
-    "repository": "android_kernel_moto_shamu",
-    "target_path": "kernel/moto/shamu",
-    "revision": "android-8.0"
-  }
-]
