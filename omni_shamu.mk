@@ -15,7 +15,7 @@ PRODUCT_RESTRICT_VENDOR_FILES := false
 # Device Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT=google/shamu/shamu:7.1.1/N6F27M/4299435:user/release-keys \
-    PRIVATE_BUILD_DESC="OPR5.170623.011"
+    PRIVATE_BUILD_DESC="OPM5.171019.015"
 
 # Inherit OmniROM parts
 $(call inherit-product, vendor/omni/config/gsm.mk)
