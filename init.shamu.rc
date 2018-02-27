@@ -320,9 +320,10 @@ on post-fs-data
     mkdir /data/hostapd 0770 system wifi
 
     # Create /data/time folder for time-services
-    mkdir /data/time/ 0700 system system
+    mkdir /data/time 0770 system system
+    mkdir /persist/time 0770 system system
 
-    mkdir /data/audio/ 0770 media audio
+    mkdir /data/audio 0770 media audio
 
     setprop vold.post_fs_data_done 1
 
