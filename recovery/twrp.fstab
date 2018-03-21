@@ -1,7 +1,8 @@
 /system      ext4    /dev/block/platform/msm_sdcc.1/by-name/system
-/data        ext4    /dev/block/platform/msm_sdcc.1/by-name/userdata      flags=encryptable=/dev/block/platform/msm_sdcc.1/by-name/metadata
+/data        ext4    /dev/block/platform/msm_sdcc.1/by-name/userdata      flags=encryptable=footer,length=-16384
 /cache       ext4    /dev/block/platform/msm_sdcc.1/by-name/cache
-/firmware    ext4    /dev/block/platform/msm_sdcc.1/by-name/modem         flags=mounttodecrypt
+/firmware    ext4    /dev/block/platform/msm_sdcc.1/by-name/modem         flags=mounttodecrypt;fsflags="nosuid,nodev";backup=1;display="Firmware"
+/persist     ext4    /dev/block/platform/msm_sdcc.1/by-name/persist       flags=fsflags="noatime,nosuid,nodev";display="Persist";backup=1
 /boot        emmc    /dev/block/platform/msm_sdcc.1/by-name/boot
 /recovery    emmc    /dev/block/platform/msm_sdcc.1/by-name/recovery      flags=backup=1
 /misc        emmc    /dev/block/platform/msm_sdcc.1/by-name/misc
